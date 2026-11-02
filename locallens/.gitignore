@@ -1,0 +1,14 @@
+.venv/
+models/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+prefs.json
+data/registry/
+data/uploads/
+data/server/
+exports/
+web/node_modules/
+web/dist/
+*.egg-info/

@@ -1,0 +1,44 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Node / Frontend
+node_modules/
+web/node_modules/
+web/dist/
+
+# Model files (large binary files)
+models/
+*.bin
+*.gguf
+*.ggml
+*.pt
+*.pth
+*.onnx
+
+# Data / uploads
+data/registry/
+data/uploads/
+data/server/
+exports/
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+prefs.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
