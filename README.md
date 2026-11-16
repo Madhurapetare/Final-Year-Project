@@ -10,13 +10,29 @@ ask a question about your data in plain language, get a chart, with a small lang
 
 ## 🎬 Live Demo
 
-**See the project in action — running fully offline on a local machine:**
-
-https://github.com/Madhurapetare/Final-Year-Project/raw/main/demos/demo1.mp4
-
-> Click the link above to watch/download the demo video.
+> Both demos show the app running **fully offline** — no internet, no cloud, your data never leaves your machine.
 
 ---
+
+### 👤 User Side Demo
+**What a regular user sees** — asking questions in plain language and getting charts instantly.
+
+https://github.com/Madhurapetare/Final-Year-Project/raw/main/demos/demo2-user-side.mp4
+
+> Click the link above to watch/download the User Side demo.
+
+---
+
+### 🛠️ Admin Side Demo
+**What the admin/data owner sees** — uploading datasets, configuring columns, setting business rules.
+
+https://github.com/Madhurapetare/Final-Year-Project/raw/main/demos/demo1-admin-side.mp4
+
+> Click the link above to watch/download the Admin Side demo.
+
+---
+
+## 📁 Project Structure
 
 | | |
 |---|---|
@@ -32,3 +48,5 @@ https://github.com/Madhurapetare/Final-Year-Project/raw/main/demos/demo1.mp4
 ```bash
 cd locallens && ./start.sh        # Windows: start.bat   ->  http://127.0.0.1:8000
 ```
+
+One command installs everything, downloads the AI model (~525 MB, one time only), builds the web app, and starts the server.
